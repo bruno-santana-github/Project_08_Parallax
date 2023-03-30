@@ -1,0 +1,152 @@
+.navbar{
+    background:#ccc;
+  }
+  .nav-link{
+    margin:0 15px;
+  }
+  .fix-zindex{
+    position: relative;
+    z-index: 2;
+  }
+
+  section.bg-top{
+    width: 100%;
+    min-height:500px;
+    background-image:url('../images/bg.jpg');
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    position:relative;
+  }
+  .texto-bg{
+    display: inline-block;
+    color: #fff;
+    padding:140px 0;
+  }
+  .padding30{
+    padding-right: 30px;
+  }
+  section.chamada{
+    background: #ccc;
+    padding:8px 0;
+    color: white;
+  }
+  
+  section.chamada h2{
+    font-size: 34px;
+    color:#3FA3C5;
+  }
+  section.sobre{
+    padding: 30px 0;
+    background: #3FA3C5;
+}
+  
+
+  .custom-title{position: relative;}
+
+  .custom-title h2{
+    color: #000;
+    font-size: 25px;
+  }
+  .custom-title div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    width: 30px;
+    height:4px;
+  }
+  section.diferenciais{
+    padding:30px;
+    color: #646464;
+  }
+  
+  section.diferenciais .col-md-4{
+    padding: 0 40px;
+  }
+  
+  section.diferenciais h2{
+    padding:10px;
+    border-bottom: 1px dotted black;
+  }
+  section.convite{
+    padding: 15px 0;
+    background: #3FA3C5;
+  }
+  
+  section.convite h2{
+    font-size: 28px;
+    margin: 15px 0;
+    color: white;
+  }
+  
+  section.convite form{
+    margin: 15px 0;
+  }
+  
+  section.convite input[type=email]{
+    width: calc(100% - 100px);
+    height: 40px;
+  }
+  
+  section.convite button{
+    width: 100px;
+    height: 40px;
+    vertical-align: top;
+  }
+  section.contato{
+    padding:30px 0;
+    background: rgb(225,225,225);
+  }
+  footer{
+    padding:14px 0;
+    background: #333;
+    color: white;
+  }
+  
+  footer ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    list-style-position: inside;
+  }
+  
+  .group-btns a{
+    margin:0 10px;
+  }
+  
+  footer a{
+    color: white;
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 1024px){
+    /*
+    .navbar-nav{
+      margin-top: 30px;
+    }
+    .nav-link{
+    border-top: 1px solid black;
+    margin:0 10px;
+    }
+    */
+  
+  .nav-link{
+    margin:0;
+  }
+  }
+  @media screen and (max-width:768px) {
+    h2 {
+        text-align:center;
+    }
+    footer div.group-btns  {
+        text-align:center;
+        padding:15px 0;
+    }
+    footer ul {
+        text-align:center;
+        padding:15px 0;
+    }
+  }
+  
+  
